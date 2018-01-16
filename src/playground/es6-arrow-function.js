@@ -1,21 +1,27 @@
-/*const square = function (x){
-    return x*x;
-};
+// function square(x) {
+//   return x * x;
+// };
 
-const squareArrow = (x) => x*x ;
+// console.log(square(3));
 
-console.log(squareArrow(6));*/
+// // const squareArrow = (x) => {
+// //   return x * x;
+// // };
 
-const fullName ='abbas ahmadi';
-//const firstName ='radin';
+// const squareArrow = (x) => x * x;
 
-/*let firstName='radin';
- if (fullName) {
-     firstName = fullName.split(' ')[0];
-     console.log(firstName);
- };
+// console.log(squareArrow(4));
 
- console.log(firstName);
-*/
-const firstName = (fullName) => fullName.split(' ')[0];
-console.log(firstName('ali ahmadi'));
+
+// Challenge - Use arrow functions
+// getFirstName('Mike Smith') -> "Mike"
+// Create regular arrow function
+// Create arrow function using shorthand syntax
+
+// const getFirstName = (fullName) => {
+//   return fullName.split(' ')[0];
+// };
+
+const getFirstName = (fullName) => fullName.split(' ')[0];
+
+console.log(getFirstName('Andrew Mead'));
